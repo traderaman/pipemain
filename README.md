@@ -112,11 +112,11 @@ EOL'
 sudo systemctl daemon-reload
 sudo systemctl enable popcache
 sudo systemctl start popcache
-sudo apt install bc
-source <(curl -s https://raw.githubusercontent.com/astrostake/0G-Labs-script/refs/heads/main/storage-node/check_block.sh)
+sudo systemctl status popcache
 ```
-
-
+```
+curl -sk http://localhost/metrics | jq . && curl -sk http://localhost/state | jq . && curl -sk http://localhost/health | jq .
+```
 ![image](https://github.com/user-attachments/assets/46e9cac6-66e8-4e37-83e1-f7dce5e9bb2f)
 
 
