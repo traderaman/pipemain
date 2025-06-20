@@ -119,8 +119,4 @@ curl -sk http://localhost/metrics | jq . && curl -sk http://localhost/state | jq
 ```
 ![image](https://github.com/user-attachments/assets/46e9cac6-66e8-4e37-83e1-f7dce5e9bb2f)
 
-Thank U! 👾
-
-Happy Coding💗
-
 
