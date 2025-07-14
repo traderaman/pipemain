@@ -118,5 +118,18 @@ sudo systemctl status popcache
 curl -sk http://localhost/metrics | jq . && curl -sk http://localhost/state | jq . && curl -sk http://localhost/health | jq .
 ```
 ![image](https://github.com/user-attachments/assets/46e9cac6-66e8-4e37-83e1-f7dce5e9bb2f)
+```
+sudo systemctl restart popcache
+```
+```
+curl -sk https://localhost:443/
+```
+```
+curl -s http://localhost:80/
+```
+```
+curl -sk https://localhost/health && echo -e "\n"
+```
+
 
 
