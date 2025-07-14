@@ -123,8 +123,6 @@ sudo systemctl restart popcache
 ```
 ```
 curl -sk https://localhost:443/
-```
-```
 curl -s http://localhost:80/
 ```
 ```
